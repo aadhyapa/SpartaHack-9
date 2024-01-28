@@ -1,6 +1,3 @@
-# Amo-something table formatting
-
-
 
 Keep_going = True
 while Keep_going == True:
@@ -166,9 +163,8 @@ while Keep_going == True:
                 Payment = mortgage_payment - Interest
 
     #####################
-    # Case 3 # FIX IT (hopefully the calculation)
+    # Case 3 
 
-    ########
     if area == 0 and monthly_payment != 0:
         area = 1000
         home_cost = area * price_per_area
